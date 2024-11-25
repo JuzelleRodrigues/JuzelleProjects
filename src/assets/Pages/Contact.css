@@ -1,0 +1,61 @@
+.contact-section {
+  padding: 40px;
+  background: white;
+}
+
+.contact-info .title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 80px;
+  font-weight: 700;
+  color: black;
+}
+
+.contact-info .description {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: black;
+  width: 90%;
+  margin-bottom: 50px;
+}
+
+.info-group h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+  margin-top: 20px;
+}
+
+.info-group p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+
+.social-link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.contact-form .form-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: black;
+}
+
+.contact-form .form-control,
+.contact-form .form-select {
+  background: #F7F7F7;
+  font-family: 'Montserrat-light', sans-serif;
+}
+
+.submit-button {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 12px 100px;
+  background: black;
+  color: white;
+  border: none;
+}

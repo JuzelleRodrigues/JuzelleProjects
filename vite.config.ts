@@ -1,7 +1,12 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
+  base: '/juzelleprojects/',  // GitHub repository name
   plugins: [react()],
-})
+  
+  build: {
+    outDir: 'dist',  // Optional: you can specify the output directory
+    assetsDir: 'assets',  // Optional: set assets directory
+  },
+});

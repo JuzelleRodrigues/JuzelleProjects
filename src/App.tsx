@@ -7,10 +7,12 @@ import Projects from './assets/Pages/Projects';
 import VideoGallery from './assets/Pages/VideoGallery';
 import WorkExperience from './assets/Pages/WorkExperience';
 import Blog from './assets/Pages/Blog';
+import Footer from './assets/Pages/Footer';
 import './App.css';
 
 const App: React.FC = () => {
   return (
+    <>
     <Router>
       <div>
         <Navbar />
@@ -25,7 +27,9 @@ const App: React.FC = () => {
         </Routes>
       </div>
     </Router>
-  );
-};
 
+<Footer/> {/* Render the Footer component here */}
+</>
+  ); 
+};
 export default App;

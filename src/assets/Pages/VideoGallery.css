@@ -1,0 +1,22 @@
+.videogallery-container {
+    width: 120%; /* Adjust the width of the rectangle */
+    max-width: 800px; /* Set a maximum width for larger screens */
+    height: 300px; /* Set height for the rectangle */
+    margin: 100px auto; /* Centers the box vertically and horizontally */
+    border: 2px solid black; /* Black outline */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px; /* Add some padding inside the rectangle */
+    box-sizing: border-box; /* Ensures padding doesn’t affect width/height */
+}
+
+/* Optional: Styling for the text inside */
+.videogallery-container h2,
+.videogallery-container p {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif; /* Using Montserrat for text */
+    color: #333; /* Dark text color */
+}

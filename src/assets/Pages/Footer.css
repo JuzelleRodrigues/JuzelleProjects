@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Montserrat:wght@400;500&display=swap');
+
+.footer-container {
+  width: 100%;
+  height: 100%;
+  padding: 39px 112px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 65px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 34px 370px;
+  gap: 30px;
+}
+
+.footer-title {
+  width: 466px;
+  height: 99px;
+  text-align: center;
+  color: #131313;
+  font-size: 46px;
+  font-family: 'Neue Montreal', sans-serif;
+  font-weight: 400;
+  line-height: 49px;
+  word-wrap: break-word;
+}
+
+.footer-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  width: 177px;
+  height: 47px;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #131313;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-family: 'Neue Montreal', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 15px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.view-resume {
+  background: white;
+  color: #131313;
+}
+
+.send-mail {
+  background: #131313;
+  color: white;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.divider {
+  width: 1216px;
+  height: 1px;
+  background: #E4E7EC;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  width: 1214px;
+  align-items: flex-start;
+}
+
+.footer-text {
+  color: #98A2B3;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+.social-links {
+  display: flex;
+  gap: 16px;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  background: #98A2B3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-icon {
+  width: 24px;
+  height: 19.5px;
+}
+
+.small-circle {
+  width: 12.33px;
+  height: 12.33px;
+  background: #98A2B3;
+  border-radius: 50%;
+  position: relative;
+}
+
+.second-circle {
+  width: 2.88px;
+  height: 2.88px;
+  position: absolute;
+  left: 16.97px;
+  top: 4.15px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 8px;
+}
+
+.footer-link {
+  width: 176px;
+  color: #667085;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+}
